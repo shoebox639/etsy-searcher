@@ -1,6 +1,6 @@
 # Searching Etsy
 
-An all client-side and dependency-free app that searches Etsy for you.
+An all client-side and dependency-free app that searches Etsy for you. It is written completely in ES6 and transpiled with babel.
 
 ##Compatibility
 This site was tested on Chrome 50. Any other modern browser should work, except IE. 
@@ -37,7 +37,3 @@ The the site is fairly responsive thanks to Twitter Bootstrap.
 - routing.js - handles on page route changes
 - url.js - convenience methods for dealing with urls
 - shoebox.js - entry file for my utility function
-
-
-## Testing
-This was a fairly small project and I felt that testing was not necessary.
