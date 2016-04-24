@@ -1,0 +1,77 @@
+#search-results h2,
+#search-results h3,
+#search-results h4,
+#search-results h5,
+#search-results h6 { 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#search-results h2 a,
+#search-results h3 a,
+#search-results h4 a,
+#search-results h5 a,
+#search-results h6 a { 
+  text-decoration: none
+}
+
+#search-results.searching {
+  padding-top: 400px;
+}
+
+#search-results .listing { 
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 7px;
+  background-color:#eee;  
+  margin-bottom:20px;
+}
+
+#search-results .listing:hover { 
+  background-color:#ddd;
+}
+
+#search-results img { 
+  border-radius: 7px;
+}
+
+#search-results .listing .listing-desc { 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 100px;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+
+#search-form.fixed-top {
+  left: 0;
+  width: 100%;
+  padding-top: 15px;
+
+  background-color: #eee;
+}
+
+
+
+/* shamelessly taken from font awesome */
+.spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
